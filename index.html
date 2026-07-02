@@ -7,9 +7,9 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
 
-    <!-- CSS Personalizado -->
+    <!-- CSS Personalizado 
     <link rel="stylesheet" th:href="@{/bootstrap/css/fuente.css}">
-    <link rel="stylesheet" th:href="@{/bootstrap/css/styles.css}">
+    <link rel="stylesheet" th:href="@{/bootstrap/css/styles.css}">-->
 </head>
 
 <body class="layout-body">
@@ -41,8 +41,8 @@
                     </li>
                    
 
-                    <li sec:authorize="hasAuthority('ADMINISTRADOR') and isAuthenticated()"  class="nav-item">
-                        <a class="nav-link" id="br-contabilidad" th:href="@{/comercial/contabilidad}">
+                    <li  class="nav-item">
+                        <a class="nav-link" id="br-contabilidad" href="">
                             📊 Proyecto Final
                         </a>
                     </li>
@@ -54,13 +54,13 @@
                 <hr class="text-white">
 
                 <div class="p-3 flex-grow-1">
-                    <img th:src="@{/image/gotaCircuito.png}"
+                    <img src=""
                          alt="Logo SICA"
                          class="img-fluid logo">
                     </div>
             
                 <div class="mt-4">
-                    <a class="btn btn-light w-100 mb-2" th:href="@{/configurarPerfil}">Perfil</a>
+                    <a class="btn btn-light w-100 mb-2" href="">Perfil</a>
 
                    
                 </div>
@@ -75,7 +75,7 @@
 
 
             <!-- FOOTER -->
-            <footer th:fragment="footer" class="footer-custom py-3">
+            <footer  class="footer-custom py-3">
                 <div class="container">
 
                     <div class="d-flex justify-content-between align-items-center">
