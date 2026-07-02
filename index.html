@@ -1,1 +1,102 @@
-<p>Hola mundo este es mi portafolio</p>
+<!DOCTYPE html>
+<html lang="es"">
+<head th:fragment="head">
+    <meta charset="UTF-8">
+
+   
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" th:href="@{/bootstrap/css/fuente.css}">
+    <link rel="stylesheet" th:href="@{/bootstrap/css/styles.css}">
+</head>
+
+<body class="layout-body">
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+
+        <!-- barra lateral-->
+
+        <nav  class="col-lg-2 col-md-3 sidebar d-flex flex-column min-vh-100">
+
+            <div class="p-3 flex-grow-1">
+
+                <h5 class="text-black mb-4">Menu Principal</h5>
+               
+                <hr class="text-white">
+                <ul class="nav flex-column">
+
+                    <li  class="nav-item">
+                        <a class="nav-link" id="br-inicio" href:="">
+                            🏠 Inicio
+                        </a>
+                    </li>
+
+                    <li >
+                        <a class="nav-link" id="br-operaciones" href="">
+                            💻  Tareas
+
+                        </a>
+                    </li>
+                   
+
+                    <li sec:authorize="hasAuthority('ADMINISTRADOR') and isAuthenticated()"  class="nav-item">
+                        <a class="nav-link" id="br-contabilidad" th:href="@{/comercial/contabilidad}">
+                            📊 Proyecto Final
+                        </a>
+                    </li>
+
+                
+
+                </ul>
+
+                <hr class="text-white">
+
+                <div class="p-3 flex-grow-1">
+                    <img th:src="@{/image/gotaCircuito.png}"
+                         alt="Logo SICA"
+                         class="img-fluid logo">
+                    </div>
+            
+                <div class="mt-4">
+                    <a class="btn btn-light w-100 mb-2" th:href="@{/configurarPerfil}">Perfil</a>
+
+                   
+                </div>
+
+            </div>
+
+        </nav>
+
+
+        <main class="col p-0 content-area d-flex flex-column">
+
+
+
+            <!-- FOOTER -->
+            <footer th:fragment="footer" class="footer-custom py-3">
+                <div class="container">
+
+                    <div class="d-flex justify-content-between align-items-center">
+
+                        <p class="mb-0 text-white">Analisís de datos con Python y AWS</p>
+
+                       
+
+                    </div>
+
+                </div>
+            </footer>
+        </main>
+
+    </div>
+</div>
+<script>
+    console.log('hola');
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
