@@ -1,0 +1,199 @@
+body {
+    background-color:#d2e1f2;
+
+}
+/*
+.sidebar {
+    background-color:#8fc3f4;
+}*/
+
+.sidebar .nav-link {
+    color: black;
+    margin-bottom: 0px;
+    border-radius: 6px;
+}
+
+.sidebar .nav-link:hover {
+    color: white;
+    background-color: #1E293B;/*#1E293B;/*#2563EB/*#0960ae;*/
+
+}
+
+li:has(.nav-link:hover){
+  background-color: #1E293B;
+      border-radius: 6px;
+ }
+
+
+}
+.sidebar .nav-link.active {
+    background-color: #5e9cd3;
+}
+/*
+.bg-content {
+    background-color: #1E3A8A;
+}
+
+.card-custom {
+    background-color: #cfe3f6;
+    border: none;
+    border-radius: 15px;
+
+    box-shadow: 0 4px 20px rgba(59, 130, 246, 0.08);
+    border: 1px solid #E3F0FF;
+
+
+}
+
+.card-header {
+    background-color: #8fbbe5;
+    border-radius: 15px 15px 0 0 !important;
+    font-weight: bold;
+}
+
+table {
+    font-size: 0.85rem;
+}
+
+.footer-img {
+    width: 80px;
+    height: auto;
+}
+
+/* Responsive
+@media (max-width: 768px) {
+
+    .footer-img {
+        width: 60px;
+    }
+
+    .footer-custom {
+        font-size: 0.9rem;
+    }
+}
+
+*/
+.clicado{
+ color: white;
+ background-color: #1E293B;
+ display: block;
+padding: 8px 16px;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out,
+  background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    border-radius: 6px;
+
+}
+
+.clicadoli{
+ background-color:#1E293B;
+     border-radius: 6px;
+     color:white;
+ margin-top:1px;
+     margin-bottom:1px;
+}
+
+
+/* SIDEBAR BASE */
+
+/* SIDEBAR BASE */
+.sidebar {
+
+  border-radius: 0 20px 20px 0;
+background: linear-gradient(160deg,#e0f2fe,#bae6fd);
+  box-shadow:
+    8px 0 25px rgba(0,0,0,0.08),
+    inset -1px 0 0 rgba(255,255,255,0.5);
+
+  padding-top: 10px;
+  position: relative;
+}
+
+/* CAPA SUAVE */
+.sidebar::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  left: -40px;
+  width: 180%;
+  height: 160px;
+  background: radial-gradient(circle, rgba(255,255,255,0.4), transparent);
+}
+
+/* TITULOS */
+.sidebar h5 {
+  color: #1e3a8a;
+}
+
+.sidebar p {
+  color: #475569;
+}
+
+/* SEPARADORES */
+.sidebar hr {
+  border-color: rgba(0,0,0,0.08);
+}
+
+/* LINKS
+.sidebar .nav-link {
+  color: #1e293b;
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin: 4px 0;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  transition: all 0.25s ease;
+}
+
+/* HOVER
+.sidebar .nav-link:hover {
+  background: rgba(59,130,246,0.12);
+  color: #1e3a8a;
+  transform: translateX(3px);
+}*/
+
+/* ACTIVO
+.sidebar .nav-link.active {
+  background: linear-gradient(135deg,#3b82f6,#60a5fa);
+  color: white;
+  box-shadow: 0 6px 15px rgba(59,130,246,0.25);
+}
+
+/* LOGO */
+.logo {
+  max-width: 120px;
+  margin: 20px auto;
+  display: block;
+  opacity: 0.9;
+}
+
+/* BOTON PERFIL */
+.sidebar .btn-light {
+  background: rgba(255,255,255,0.7);
+  border: none;
+  color: #1e3a8a;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.sidebar .btn-light:hover {
+  background: #ffffff;
+}
+
+/* BOTON CERRAR */
+.sidebar .btn-danger {
+  border-radius: 12px;
+  background: linear-gradient(135deg,#ef4444,#dc2626);
+  border: none;
+
+  box-shadow: 0 6px 15px rgba(239,68,68,0.3);
+}
+
+.sidebar .btn-danger:hover {
+  background: linear-gradient(135deg,#f87171,#ef4444);
+}
