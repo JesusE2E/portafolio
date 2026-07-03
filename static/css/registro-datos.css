@@ -1,0 +1,244 @@
+/*.contenedor-registro{
+/*border: 0.px  solid #1A3D8F;
+border-radius:15px;
+  padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+
+}
+
+.contenedor-registro-datos{
+border: 0px solid #1A3D8F;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+  padding: 20px 20px 20px 20px;
+margin: 0px;
+margin-bottom: 20px;
+border-radius:15px;
+
+}
+
+
+
+.ct-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; /* más natural para flex-wrap
+  gap: 10px;
+  border-radius:15px;
+}
+
+@media (min-width: 1025px) {
+  .ct-section {
+    display: grid;
+   grid-template-columns: repeat(3, 1fr); /* 3 columnas por fila
+
+    gap: 7px;
+    justify-items: center; /* centra cada celda horizontalmente
+    align-items: start;    /* alinea al inicio verticalmente
+  }
+  .ct-section-bloq{
+     display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+  }
+
+}
+
+
+
+
+.ct-section-bloq{
+   display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.ct-section-bloq p {
+    margin-bottom: 5px; /* margen inferior pequeño
+}
+.ct-section-bloq-input{
+  text-align: center;
+   border: 1px ;
+    border-radius: 3px;
+      height: 40px;
+       width: 100%;
+       padding:10px;
+       box-sizing:border-box;
+}
+
+
+.tab-seccion{
+display: flex;
+
+}
+
+.tab-seccion-elem{
+
+  padding: 10px 10px 10px 10px;
+margin: 0px;
+  border-radius: 15px 15px 1px 1px;
+background:#9ec3e6;
+color:white
+border: 2px solid #9ec3e6;
+
+}
+
+*/.contenedor-registro{
+      border-radius:15px;
+      padding: 20px;
+      margin: 20px;
+      background-color: #D6EBFF; /* azul claro principal */
+      box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+  }
+
+  .contenedor-registro-datos{
+      border: 1px solid rgba(0,0,0,0.08);
+      background-color: #cfe4ff; /* azul más marcado */
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius:0px 15px 15px 15px;
+  }
+
+  /* Layout */
+  .ct-section {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 10px;
+      border-radius:15px;
+  }
+
+  @media (min-width: 1025px) {
+      .ct-section {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 10px;
+          justify-items: center;
+          align-items: start;
+      }
+
+      .ct-section-bloq{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+      }
+  }
+
+  /* Bloques */
+  .ct-section-bloq{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .ct-section-bloq p {
+      margin-bottom: 5px;
+      color: #000; /* negro intenso */
+      font-weight: 600;
+  }
+
+  /* Inputs */
+  .ct-section-bloq-input{
+      text-align: center;
+      border: 1px solid rgba(0,0,0,0.2);
+      border-radius: 6px;
+      height: 40px;
+      width: 100%;
+      padding:10px;
+      box-sizing:border-box;
+      background-color: #eaf4ff; /* azul muy suave */
+      color: #000;
+      transition: all 0.2s ease;
+  }
+
+  /* Focus */
+  .ct-section-bloq-input:focus{
+      outline: none;
+      border: 1px solid #5a8fd8;;
+      box-shadow: 0 0 5px rgba(44,90,160,0.4);
+      background-color: #ffffff;
+  }
+
+  /* Tabs */
+  .tab-seccion{
+      display: flex;
+      align-items: center;
+      justify-content: space-between; /* separa texto y título */
+  }
+
+  /* Etiqueta izquierda */
+  .tab-seccion-elem{
+      padding: 10px;
+      margin: 0;
+      border-radius: 12px 12px 0 0;
+      background: #5a8fd8;/*#2c5aa0; /* azul fuerte */
+      color: #ffffff;
+      border: 1px solid rgba(0,0,0,0.1);
+      font-weight: 600;
+  }
+
+  /* Texto dinámico (Asignar Rol centrado) */
+  .tab-seccion h2{
+      flex: 1;
+      text-align: center; /*  centrado real */
+      margin: 0;
+      color: #000;
+      font-weight: 700;
+  }
+
+  /*Estos estilos son para los divs que se generan  en la seccion
+  Buscar usuario por nombre o alias tapen en lugar de desplazar
+  */
+  .contenedor-buscador{
+      position: relative;
+  }
+  .dropdown {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      border: 1px solid #ccc;
+      background: white;
+      z-index: 1000;
+      max-height: 150px;
+      overflow-y: auto;
+  }
+/*Clase agregada de forma dinamica para la seleccion de personas*/
+  .efect-Ho:hover{
+   background-color: #1E293B;
+   color:white;
+  }
+
+
+
+
+  /* Contenedor de la sección */
+  .tab-seccion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   /* border-bottom: 2px solid #E0E0E0; /* línea base corporativa */
+    margin-bottom: 1px;
+  }
+
+  /* Etiqueta tipo tab */
+  .tab-seccion-elem {
+    padding: 10px 18px;
+    margin: 0;
+    background:  #F1F8FF;/*#E3F2FD;*/
+    color: #1F2937; /* gris oscuro elegante */
+    font-weight: 600;
+    font-size: 0.95rem;
+    border: none;
+    border-bottom: 3px solid #1E88E5; /* indicador activo */
+    letter-spacing: 0.4px;
+  }
+
+
+
