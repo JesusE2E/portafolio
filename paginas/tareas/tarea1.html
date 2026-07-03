@@ -1,792 +1,16 @@
 <!DOCTYPE html>
-<html lang="es">
 
-<body>
-
-
-<div class="container-fluid">
-    <div class="row flex-nowrap">
-
-        <!-- barra lateral-->
-
-        <nav  class="col-lg-2 col-md-3 sidebar d-flex flex-column min-vh-100">
-
-            <div class="p-3 flex-grow-1">
-
-                <h5 class="text-black mb-4">Menu Principal</h5>
-               
-                <hr class="text-white">
-                <ul class="nav flex-column">
-
-                    <li  class="nav-item">
-                        <a class="nav-link" id="br-inicio" href="/portafolio">
-                            🏠 Inicio
-                        </a>
-                    </li>
-
-                    <li >
-                        <a class="nav-link" id="br-operaciones" href="/portafolio/paginas/tareas/tarjetasTareas.html">
-                            💻  Tareas
-
-                        </a>
-                    </li>
-                   
-<!-- href="/portafolio/paginas/proyectoFinal/proyectoFinal.html">-->
-                    <li  class="nav-item">
-                        <a class="nav-link" id="br-contabilidad" href="/portafolio/paginas/construccion.html">
-                            📊 Proyecto Final
-                        </a>
-                    </li>
-
-                
-
-                </ul>
-
-                <hr class="text-white">
-
-                <div class="p-3 flex-grow-1">
-                    <img src="/portafolio/static/img/logo.png"
-                         alt="Logo "
-                         class="img-fluid logo">
-                    </div>
-            
-                <div class="mt-4">
-                    <a class="btn btn-light w-100 mb-2" href="">Perfil</a>
-
-                   
-                </div>
-
-            </div>
-
-        </nav>
-
-
-
-
-
-<div class="contenedor-registro">
-            <div class="contenedor-tarjetas">
-
-          
-  
-          </div>
-
-
-
-
-
-        <main class="col p-0 content-area d-flex flex-column">
-
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=296764f9-9e11-44a5-9104-ce784a880912">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<div>
-
-&lt;h1 id="%F0%9F%90%8D-Fundamentos-de-Python"&gt;🐍 Fundamentos de <span>Python</span><a class="anchor-link" href="#%F0%9F%90%8D-Fundamentos-de-Python">¶</a>&lt;/h1&gt;</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=fe64d9ef-7281-4108-b7ea-5c8ac920ff19">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-&lt;hr /&gt;
-&lt;p&gt;<em>1.- Instrucción Que Imprime Un Mensaje En Consola</em>&lt;/p&gt;
-<blockquote>
-&lt;p&gt;A continuacion se muestra la instruccion mas basica de Python cuya finalidad es realizar una escritura por consola
-Imprime objects al flujo de texto file, separándolos por sep y seguidos por end. sep, end, file y flush, si están presentes, deben &gt;ser dados como argumentos por palabra clave.&lt;/br&gt;
-<code>&lt;div style="text-align:center;"&gt; print(*objects, sep=' ', end='\n', file=None, flush=False) &lt;/div&gt;</code>&lt;/p&gt;
-</blockquote>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ea456375-698e-4080-b0ad-86686f2d7b73">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"Hola mundo!!"</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Hola mundo!!
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9e772d3d-f5b1-4e0d-b3b1-1452b57b2023">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-&lt;p&gt;<em>1.1.- Salida de consola</em>&lt;/p&gt;
-<blockquote>
-&lt;p&gt;--&gt;  Hola mundo!!&lt;/p&gt;
-</blockquote>
-&lt;hr /&gt;
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=dee56bb6-66d0-47b8-96fa-b470107182dc">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-&lt;p&gt;--&lt;/p&gt;
-&lt;h3 id="IDEA"&gt;IDEA<a class="anchor-link" href="#IDEA">¶</a>&lt;/h3&gt;<ul>
-<li>Edad (número)</li>
-<li>Nombre (texto)</li>
-</ul>
-<blockquote>
-&lt;p&gt;A continuacion se muestran  4 ideas clave para el analisis y plateamiento de un problema&lt;/p&gt;
-&lt;h3 id="Datos"&gt;Datos<a class="anchor-link" href="#Datos">¶</a>&lt;/h3&gt;&lt;p&gt;Identigicar los datos con los cuales se va a trabajar&lt;/p&gt;
-</blockquote>
-&lt;h3 id="Estrategia"&gt;Estrategia<a class="anchor-link" href="#Estrategia">¶</a>&lt;/h3&gt;<blockquote>
-&lt;p&gt;definir como se van a usar los datos.&lt;/p&gt;
-&lt;h3 id="Aplicaci%C3%B3n"&gt;Aplicación<a class="anchor-link" href="#Aplicaci%C3%B3n">¶</a>&lt;/h3&gt;&lt;p&gt;usar los datos&lt;/p&gt;
-</blockquote>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8ad15921-9d76-4cb0-9a20-24ff0804bd8f">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-&lt;hr /&gt;
-&lt;p&gt;<em>2.-Declaración de variables</em>&lt;/p&gt;
-<blockquote>
-&lt;p&gt;El lenguaje de programacion identifica el tipo de dato y no es necesario asignarle tipo explicitamente.&lt;/p&gt;
-</blockquote>
-&lt;hr /&gt;
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=5ad6dfca-3f55-4798-9fe4-71af63cd6c66">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">nombre</span> <span class="o">=</span> <span class="s2">"Antonella"</span>
-<span class="n">edad</span><span class="o">=</span><span class="mi">2</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=85f6760a-6433-4abe-85be-6b876aec9b2c">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"nombre: "</span><span class="o">+</span> <span class="n">nombre</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>nombre: Antonella
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0344cf31-083f-4422-b523-aa3407be7740">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">ejemploFoat</span><span class="o">=</span><span class="mf">2.4</span>
-<span class="nb">type</span><span class="p">(</span><span class="n">ejemploFoat</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>float</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=621294a3-a5c5-416e-b278-053c75b9431f">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">venta1</span><span class="o">=</span><span class="mi">1</span>
-<span class="n">venta2</span><span class="o">=</span><span class="mi">2</span>
-<span class="n">total</span><span class="o">=</span><span class="n">venta1</span><span class="o">+</span> <span class="n">venta2</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Total de ventas "</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">total</span><span class="p">))</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Total de ventas 3
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7800a441-ddfc-4171-b5e9-06821d316668">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">a</span><span class="o">=</span><span class="mi">20</span>
-<span class="n">b</span><span class="o">=</span><span class="mi">5</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">-</span><span class="n">b</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">*</span><span class="n">b</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">/</span><span class="n">b</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>15
-100
-4.0
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=6d13c2bd-c465-413f-8468-7650993079f5">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">ventas</span><span class="o">=</span><span class="p">[</span><span class="mi">100</span><span class="p">,</span><span class="mi">200</span><span class="p">,</span><span class="mi">80</span><span class="p">,</span><span class="mi">250</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">ventas</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>[100, 200, 80, 250]
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=57a085a9-d82d-4adf-94fe-d9e6b1963500">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">ventas</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>100</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=edb7e140-e031-4d6c-94a0-e7a9112e243c">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-&lt;hr /&gt;
-&lt;p&gt;<em>3.-Estructura condicional</em>&lt;/p&gt;
-<blockquote>
-&lt;p&gt;Sintaxis de una estructura de descición&lt;/p&gt;
-</blockquote>
-&lt;hr /&gt;
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b36ffad3-e010-4de5-8e39-0ac8345cbeba">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">venta</span> <span class="o">=</span><span class="mi">180</span>
-<span class="k">if</span> <span class="n">venta</span> <span class="o">&gt;=</span><span class="mi">150</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"venta alta"</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"venta baja"</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>venta alta
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=2b5a0fef-fb0b-4d59-b515-bcae7594e46a">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">ventas</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"Estoy revisando las ventas"</span><span class="p">,</span><span class="n">v</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Estoy revisando las ventas 100
-Estoy revisando las ventas 200
-Estoy revisando las ventas 80
-Estoy revisando las ventas 250
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7f7644ce-0078-4375-8d18-0886bda1fb8a">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-&lt;hr /&gt;
-&lt;p&gt;<em>4.-Definición de una función</em>&lt;/p&gt;
-<blockquote>
-&lt;p&gt;Sintaxis de una funcion con un oarametro de entrada&lt;/p&gt;
-</blockquote>
-&lt;hr /&gt;
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=fbd76283-4715-4216-8480-5c3b11536c55">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">duplicar</span><span class="p">(</span><span class="n">numero</span><span class="p">):</span>
-    <span class="n">resultado</span><span class="o">=</span><span class="n">numero</span><span class="o">*</span><span class="mi">2</span>
-    <span class="k">return</span> <span class="n">resultado</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d1869ab6-3374-4800-853a-2229a4aa6fc3">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">duplicar</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>10</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=912afbdf-455e-499e-9b03-84f6ba37c5ca">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-&lt;hr /&gt;
-&lt;p&gt;<em>5.-Definición de un diccionario</em>&lt;/p&gt;
-<blockquote>
-&lt;p&gt;Sintaxis de una funcion con un oarametro de entrada&lt;/p&gt;
-</blockquote>
-&lt;hr /&gt;
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=61953304-febb-411f-98ea-71c7584c6348">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">producto</span><span class="o">=</span><span class="p">{</span>
-    <span class="s2">"nombre"</span><span class="p">:</span><span class="s2">"laptop"</span><span class="p">,</span>
-    <span class="s2">"precio"</span><span class="p">:</span><span class="mi">15000</span><span class="p">,</span>
-    <span class="s2">"categoria"</span><span class="p">:</span><span class="s2">"Tecnologia"</span>
-<span class="p">}</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ef83f686-c25b-48b1-8053-d7471a41cf59">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">type</span><span class="p">(</span><span class="n">producto</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[22]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>dict</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=559b1c78-2cdd-42c5-8f1b-f1fb03ae537d">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">producto</span><span class="p">[</span><span class="s2">"nombre"</span><span class="p">]</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>'laptop'</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2b55243f-4203-44a9-b606-280ea7aee1b4">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-&lt;hr /&gt;
-&lt;p&gt;<em>5.-Sintaxis de un ciclo de repetición</em>&lt;/p&gt;
-<blockquote>
-&lt;p&gt;El bucle de repetición del tipo <strong>for</strong> es usado para recorrer listas.&lt;/p&gt;
-</blockquote>
-&lt;hr /&gt;
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=3d7ec3e2-3efd-4932-b108-c2141ae2dff2">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">ventas_del_dia</span><span class="o">=</span><span class="p">[</span><span class="mi">120</span><span class="p">,</span><span class="mi">222</span><span class="p">,</span><span class="mi">80</span><span class="p">,</span><span class="mi">150</span><span class="p">]</span>
-<span class="n">total</span><span class="o">=</span><span class="mi">0</span>
-<span class="k">for</span> <span class="n">venta</span> <span class="ow">in</span> <span class="n">ventas_del_dia</span><span class="p">:</span>
-    <span class="n">total</span><span class="o">=</span><span class="n">total</span><span class="o">+</span><span class="n">venta</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"El total de ventas"</span><span class="p">,</span><span class="n">total</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>El total de ventas 572
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=65bbb775-eeb4-4d4f-ac54-8d397a08728e">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<div>
-
-&lt;h1 id="%F0%9F%90%8D-Ejercicio-Practico-Clasificar-elementos-de-una-lista"&gt;🐍 Ejercicio Practico <span>Clasificar elementos de una lista</span><a class="anchor-link" href="#%F0%9F%90%8D-Ejercicio-Practico-Clasificar-elementos-de-una-lista">¶</a>&lt;/h1&gt;</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2f43d2e0-96a3-4d08-9e95-0b2ba6876f74">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-&lt;hr /&gt;
-&lt;p&gt;<em>6.-Enunciado del problema</em>&lt;/p&gt;
-<blockquote>
-&lt;p&gt;ventas = [90, 220, 180, 310, 50]&lt;/br&gt;
-Clasifica ventas como alta o baja usando la regla:&lt;/br&gt;
-alta si la venta es mayor o igual a 200&lt;/br&gt;
-baja si es menor a 200&lt;/p&gt;
-</blockquote>
-&lt;hr /&gt;
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=3993a081-7148-4fd9-ae8e-eccadebd084e">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">ventas</span><span class="o">=</span><span class="p">[</span><span class="mi">90</span><span class="p">,</span> <span class="mi">220</span><span class="p">,</span> <span class="mi">180</span><span class="p">,</span> <span class="mi">310</span><span class="p">,</span> <span class="mi">50</span><span class="p">]</span>
-<span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">ventas</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">'LA VENTA '</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">v</span><span class="p">)</span><span class="o">+</span> <span class="s1">' ES ALTA'</span> <span class="k">if</span> <span class="n">v</span><span class="o">&gt;=</span><span class="mi">200</span>  <span class="k">else</span> <span class="s1">'LA VENTA '</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">v</span><span class="p">)</span><span class="o">+</span> <span class="s1">' ES BAJA'</span>  <span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>LA VENTA 90 ES BAJA
-LA VENTA 220 ES ALTA
-LA VENTA 180 ES BAJA
-LA VENTA 310 ES ALTA
-LA VENTA 50 ES BAJA
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=8981edfe-8535-40cf-99f9-aee8a627d118">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=bdfad34a-b45b-4f58-b8d9-293d92424080">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</main>
-
-    
-
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-    <!-- Archivo JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
-</body>
-
-
+<html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 
-
-<!-- Configuración del documento 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
--->
-    
-    <title>Tarea 1</title>
-
+<title>Tarea 1</title>
      
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <link rel="stylesheet" href="/portafolio/static/css/registro-datos.css">
     <link rel="stylesheet" href="/portafolio/static/css/styles.css">
       <link rel="stylesheet" href="/portafolio/static/css/contenedor-tarjetas.css">
-
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
@@ -8580,8 +7804,72 @@ a.anchor-link {
   }
 </style>
 <!-- End of mermaid configuration --></head>
-<body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-<main>
+<body class="jp-Notebook" class="layout-body" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+
+        <!-- barra lateral-->
+
+        <nav  class="col-lg-2 col-md-3 sidebar d-flex flex-column min-vh-100">
+
+            <div class="p-3 flex-grow-1">
+
+                <h5 class="text-black mb-4">Menu Principal</h5>
+               
+                <hr class="text-white">
+                <ul class="nav flex-column">
+
+                    <li  class="nav-item">
+                        <a class="nav-link" id="br-inicio" href="">
+                            🏠 Inicio
+                        </a>
+                    </li>
+
+                    <li >
+                        <a class="nav-link" id="br-operaciones" href="paginas/tareas/tarjetasTareas.html">
+                            💻  Tareas
+
+                        </a>
+                    </li>
+                   
+
+                    <li  class="nav-item">
+                        <a class="nav-link" id="br-contabilidad" href="paginas/construccion.html">
+                            📊 Proyecto Final
+                        </a>
+                    </li>
+
+                
+
+                </ul>
+
+                <hr class="text-white">
+
+                <div class="p-3 flex-grow-1">
+                    <img src="static/img/logo.png"
+                         alt="Logo "
+                         class="img-fluid logo">
+                    </div>
+            
+                <div class="mt-4">
+                    <a class="btn btn-light w-100 mb-2" href="">Perfil</a>
+
+                   
+                </div>
+
+            </div>
+
+        </nav>
+
+
+        <main class="col p-0 content-area d-flex flex-column">
+
+
+<div class="contenedor-registro">
+            <div class="contenedor-tarjetas">
+
+             <!--ttodp -->
+ <div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=296764f9-9e11-44a5-9104-ce784a880912">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -9248,11 +8536,18 @@ LA VENTA 50 ES BAJA
 </div>
 </div>
 </div>
-</main>
+</div>
+
+
+  
+          </div>
+
+
+
+
+        </main>
+
+    </div>
+</div>
 </body>
-
-
-
-
-
 </html>
