@@ -2,10 +2,10 @@ body {
     background-color:#0c4484;
 
 }
-/*
+
 .sidebar {
     background-color:#8fc3f4;
-}*/
+}
 
 .sidebar .nav-link {
     color: black;
@@ -22,57 +22,11 @@ body {
 li:has(.nav-link:hover){
   background-color: #1E293B;
       border-radius: 6px;
- }
-
-
-}
-.sidebar .nav-link.active {
-    background-color: #5e9cd3;
-}
-/*
-.bg-content {
-    background-color: #1E3A8A;
-}
-
-.card-custom {
-    background-color: #cfe3f6;
-    border: none;
-    border-radius: 15px;
-
-    box-shadow: 0 4px 20px rgba(59, 130, 246, 0.08);
-    border: 1px solid #E3F0FF;
-
+ 
 
 }
 
-.card-header {
-    background-color: #8fbbe5;
-    border-radius: 15px 15px 0 0 !important;
-    font-weight: bold;
-}
 
-table {
-    font-size: 0.85rem;
-}
-
-.footer-img {
-    width: 80px;
-    height: auto;
-}
-
-/* Responsive
-@media (max-width: 768px) {
-
-    .footer-img {
-        width: 60px;
-    }
-
-    .footer-custom {
-        font-size: 0.9rem;
-    }
-}
-
-*/
 .clicado{
  color: white;
  background-color: #1E293B;

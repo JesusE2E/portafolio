@@ -1,91 +1,4 @@
-/*.contenedor-registro{
-/*border: 0.px  solid #1A3D8F;
-border-radius:15px;
-  padding: 20px 20px 20px 20px;
-    margin: 20px 20px 20px 20px;
-    box-shadow:0 4px 10px rgba(0,0,0,0.2);
-
-}
-
-.contenedor-registro-datos{
-border: 0px solid #1A3D8F;
-box-shadow:0 4px 10px rgba(0,0,0,0.2);
-  padding: 20px 20px 20px 20px;
-margin: 0px;
-margin-bottom: 20px;
-border-radius:15px;
-
-}
-
-
-
-.ct-section {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start; /* más natural para flex-wrap
-  gap: 10px;
-  border-radius:15px;
-}
-
-@media (min-width: 1025px) {
-  .ct-section {
-    display: grid;
-   grid-template-columns: repeat(3, 1fr); /* 3 columnas por fila
-
-    gap: 7px;
-    justify-items: center; /* centra cada celda horizontalmente
-    align-items: start;    /* alinea al inicio verticalmente
-  }
-  .ct-section-bloq{
-     display: flex;
-       flex-direction: column;
-       align-items: center;
-       width: 100%;
-  }
-
-}
-
-
-
-
-.ct-section-bloq{
-   display: flex;
-     flex-direction: column;
-     align-items: center;
-}
-.ct-section-bloq p {
-    margin-bottom: 5px; /* margen inferior pequeño
-}
-.ct-section-bloq-input{
-  text-align: center;
-   border: 1px ;
-    border-radius: 3px;
-      height: 40px;
-       width: 100%;
-       padding:10px;
-       box-sizing:border-box;
-}
-
-
-.tab-seccion{
-display: flex;
-
-}
-
-.tab-seccion-elem{
-
-  padding: 10px 10px 10px 10px;
-margin: 0px;
-  border-radius: 15px 15px 1px 1px;
-background:#9ec3e6;
-color:white
-border: 2px solid #9ec3e6;
-
-}
-
-*/.contenedor-registro{
+.contenedor-registro{
       border-radius:15px;
       padding: 20px;
       margin: 20px;
@@ -102,7 +15,6 @@ border: 2px solid #9ec3e6;
       border-radius:0px 15px 15px 15px;
   }
 
-  /* Layout */
   .ct-section {
       display: flex;
       flex-direction: row;
@@ -130,7 +42,6 @@ border: 2px solid #9ec3e6;
       }
   }
 
-  /* Bloques */
   .ct-section-bloq{
       display: flex;
       flex-direction: column;
@@ -143,7 +54,7 @@ border: 2px solid #9ec3e6;
       font-weight: 600;
   }
 
-  /* Inputs */
+
   .ct-section-bloq-input{
       text-align: center;
       border: 1px solid rgba(0,0,0,0.2);
