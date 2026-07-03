@@ -82,7 +82,274 @@
 <div class="contenedor-registro">
             <div class="contenedor-tarjetas">
 
-             <!--tarjeta para registrar una venta -->
+          <div style="text-align:center;">
+
+# 🐍 Fundamentos de <span style="color:Green">Python</span>
+
+
+</div>
+
+
+---
+*1.- Instrucción Que Imprime Un Mensaje En Consola* 
+>A continuacion se muestra la instruccion mas basica de Python cuya finalidad es realizar una escritura por consola
+>Imprime objects al flujo de texto file, separándolos por sep y seguidos por end. sep, end, file y flush, si están presentes, deben >ser dados como argumentos por palabra clave.</br>
+``<div style="text-align:center;"> print(*objects, sep=' ', end='\n', file=None, flush=False) </div>``
+
+
+
+```python
+print("Hola mundo!!")
+```
+
+    Hola mundo!!
+
+
+*1.1.- Salida de consola*
+> -->  Hola mundo!!
+---
+
+--
+### IDEA
+>A continuacion se muestran  4 ideas clave para el analisis y plateamiento de un problema
+### Datos
+>Identigicar los datos con los cuales se va a trabajar
+- Edad (número)
+- Nombre (texto)
+### Estrategia
+>definir como se van a usar los datos.
+### Aplicación
+>usar los datos
+
+---
+*2.-Declaración de variables* 
+>El lenguaje de programacion identifica el tipo de dato y no es necesario asignarle tipo explicitamente.
+---
+
+
+
+```python
+nombre = "Antonella"
+edad=2
+```
+
+
+```python
+print("nombre: "+ nombre)
+```
+
+    nombre: Antonella
+
+
+
+```python
+ejemploFoat=2.4
+type(ejemploFoat)
+```
+
+
+
+
+    float
+
+
+
+
+```python
+venta1=1
+venta2=2
+total=venta1+ venta2
+print("Total de ventas "+ str(total))
+```
+
+    Total de ventas 3
+
+
+
+```python
+a=20
+b=5
+print(a-b)
+print(a*b)
+print(a/b)
+```
+
+    15
+    100
+    4.0
+
+
+
+```python
+ventas=[100,200,80,250]
+print(ventas)
+```
+
+    [100, 200, 80, 250]
+
+
+
+```python
+ventas[0]
+```
+
+
+
+
+    100
+
+
+
+---
+*3.-Estructura condicional* 
+>Sintaxis de una estructura de descición 
+---
+
+
+```python
+venta =180
+if venta >=150:
+    print("venta alta")
+else:
+    print("venta baja")
+```
+
+    venta alta
+
+
+
+```python
+for v in ventas:
+    print("Estoy revisando las ventas",v)
+```
+
+    Estoy revisando las ventas 100
+    Estoy revisando las ventas 200
+    Estoy revisando las ventas 80
+    Estoy revisando las ventas 250
+
+
+---
+*4.-Definición de una función* 
+>Sintaxis de una funcion con un oarametro de entrada
+---
+
+
+```python
+def duplicar(numero):
+    resultado=numero*2
+    return resultado
+```
+
+
+```python
+duplicar(5)
+
+```
+
+
+
+
+    10
+
+
+
+---
+*5.-Definición de un diccionario* 
+>Sintaxis de una funcion con un oarametro de entrada
+---
+
+
+```python
+producto={
+    "nombre":"laptop",
+    "precio":15000,
+    "categoria":"Tecnologia"
+}
+```
+
+
+```python
+type(producto)
+```
+
+
+
+
+    dict
+
+
+
+
+```python
+producto["nombre"]
+```
+
+
+
+
+    'laptop'
+
+
+
+---
+*5.-Sintaxis de un ciclo de repetición* 
+>El bucle de repetición del tipo **for** es usado para recorrer listas.
+---
+
+
+```python
+ventas_del_dia=[120,222,80,150]
+total=0
+for venta in ventas_del_dia:
+    total=total+venta
+print("El total de ventas",total)
+```
+
+    El total de ventas 572
+
+
+<div style="text-align:center;">
+
+# 🐍 Ejercicio Practico <span style="color:Green">Clasificar elementos de una lista</span>
+
+
+</div>
+
+
+---
+*6.-Enunciado del problema* 
+>ventas = [90, 220, 180, 310, 50]</br>
+>Clasifica ventas como alta o baja usando la regla:</br>
+>alta si la venta es mayor o igual a 200</br>
+>baja si es menor a 200
+---
+
+
+```python
+
+ventas=[90, 220, 180, 310, 50]
+for v in ventas:
+    print('LA VENTA '+ str(v)+ ' ES ALTA' if v>=200  else 'LA VENTA '+ str(v)+ ' ES BAJA'  )
+```
+
+    LA VENTA 90 ES BAJA
+    LA VENTA 220 ES ALTA
+    LA VENTA 180 ES BAJA
+    LA VENTA 310 ES ALTA
+    LA VENTA 50 ES BAJA
+
+
+
+```python
+
+```
+
+
+```python
+
+```
+
   
           </div>
 
