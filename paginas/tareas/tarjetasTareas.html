@@ -7909,7 +7909,7 @@ a.anchor-link {
                          alt="logo python nube">
                     <h5 class="card-title">Tarea 3</h5>
                     <h6 class="card-subtitle mb-1 text-body-secondary">Análisis de datos para DataSeet de Netflix</h6>
-                    <a type="button" class="btn-card-registro" id="tarjeta-venta" href="/portafolio/paginas/tareas/tarea3.html">VER</a>
+                    <a type="button" class="btn-card-registro" id="tarjeta-venta" onclick="abrirModal()">VER</a>
                                                                                       
                 </div>
             </div>
@@ -7932,26 +7932,26 @@ a.anchor-link {
 
 
 
+<div id="miModal" style="display: none; position: fixed; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5);">
+  <div style="background-color: #fefefe; margin: 5% auto; padding: 20px; border: 1px solid #888; width: 80%; height: 80%;">
+    
+
+    <span onclick="cerrarModal()" style="color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
+    
+
+    <iframe src="/portafolio/static/pdf/stnt.pdf" width="100%" height="100%"></iframe>
+
+  </div>
+</div>
+
+
 
 
         <main class="col p-0 content-area d-flex flex-column">
 
 
 
-            <!-- FOOTER -->
-            <footer  class="footer-custom py-3">
-                <div class="container">
-
-                    <div class="d-flex justify-content-between align-items-center">
-
-                        <p class="mb-0 text-white">Analisís de datos con Python y AWS</p>
-
-                       
-
-                    </div>
-
-                </div>
-            </footer>
+          
         </main>
 
     </div>
@@ -7969,7 +7969,7 @@ a.anchor-link {
 
 
     </main>
-
+<script src="/portafolio/static/jss/modal.js"></script>
    
     <!-- Archivo JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
