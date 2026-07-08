@@ -2,7 +2,10 @@ const params = new URLSearchParams(window.location.search);
 const pdf = params.get("pdf");
 
 const documentos = {
-    netflix: "/portafolio/static/pdf/stnt.pdf"
+    netflix: "/portafolio/static/pdf/stnt.pdf",
+    titanic: "/portafolio/static/pdf/titanic.pdf",
+     awsAWA: "/portafolio/static/pdf/awsAWA.pdf",
+    awsGITS: "/portafolio/static/pdf/awsGITS.pdf"
 
 };
 
