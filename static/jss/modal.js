@@ -5,7 +5,9 @@ const documentos = {
     netflix: "/portafolio/static/pdf/stnt.pdf",
     titanic: "/portafolio/static/pdf/titanic.pdf",
     AwsWA: "/portafolio/static/pdf/AwsWA.pdf",
-    GITS: "/portafolio/static/pdf/GITS.pdf"
+    GITS: "/portafolio/static/pdf/GITS.pdf",
+    DAWSF: "/portafolio/static/pdf/DAWSF.pdf",
+    ACPE: "/portafolio/static/pdf/ACPE.pdf"
 
 };
 
