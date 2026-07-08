@@ -111,3 +111,7 @@
   align-items:center;
   gap:25px;
 }
+
+.contenedor-tarjetas > div{
+   flex: 0 0 calc(50% - 10px);
+}
