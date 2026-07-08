@@ -4,8 +4,8 @@ const pdf = params.get("pdf");
 const documentos = {
     netflix: "/portafolio/static/pdf/stnt.pdf",
     titanic: "/portafolio/static/pdf/titanic.pdf",
-     awsAWA: "/portafolio/static/pdf/awsAWA.pdf",
-    awsGITS: "/portafolio/static/pdf/awsGITS.pdf"
+    AwsWA: "/portafolio/static/pdf/AwsWA.pdf",
+    GITIS: "/portafolio/static/pdf/GITIS.pdf"
 
 };
 
@@ -13,7 +13,7 @@ const documentos = {
 
 
 if (pdf && documentos[pdf]) {
-    document.querySelector("#miModal iframe").src = documentos[pdf];
+    document.querySelector("#miModal").src = documentos[pdf];
     document.getElementById("miModal").style.display = "block";
 }
   
